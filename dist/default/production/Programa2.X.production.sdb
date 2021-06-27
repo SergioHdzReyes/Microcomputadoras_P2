@@ -1,0 +1,104 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15313 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"49 C:\Users\sergi\MPLABXProjects\Programa2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\sergi\MPLABXProjects\Programa2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"73
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\sergi\MPLABXProjects\Programa2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S59 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"462 C:\Program Files\Microchip\xc8\v2.30\pic\include\proc\pic16f15313.h
+[u S66 . 1 `S59 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES66  1 e 1 @12 ]
+"497
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"542
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S76 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"557
+[u S83 . 1 `S76 1 . 1 0 ]
+[v _LATAbits LATAbits `VES83  1 e 1 @24 ]
+"8185
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"8230
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"8278
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"8317
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"8367
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"8401
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"9463
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"9603
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"9637
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"9689
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"9735
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"9793
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"16143
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"16188
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"16238
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"16283
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"16328
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"49 C:\Users\sergi\MPLABXProjects\Programa2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"51
+[v main@opc opc `i  1 a 2 0 ]
+"85
+} 0
+"50 C:\Users\sergi\MPLABXProjects\Programa2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"73
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"55 C:\Users\sergi\MPLABXProjects\Programa2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"57 C:\Users\sergi\MPLABXProjects\Programa2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
